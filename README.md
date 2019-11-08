@@ -2,7 +2,7 @@
 
 - python 2.7.15
 
-使用第三方库的时候，需要`cd py-service && pip2 install -r  requirements -t py-service/third_party`
+使用第三方库的时候，需要`cd py-service && pip2 install -r  requirements.txt -t ./third_party`
 
 __非常诡异地__，这种情况下依然无法拉起grpc_server，需要在third_party底下，touch google/__init__.py才可以。不然pb文件会报`ImportError: No module named google.protobuf`
 

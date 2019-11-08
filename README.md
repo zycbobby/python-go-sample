@@ -9,9 +9,9 @@ __非常诡异地__，这种情况下依然无法拉起grpc_server，需要在th
 
 # 示例
 
-- ` -pyfile=./py-service/main.py`, trivial sample
-- ` -pyfile=./py-service/flask_server.py`， flask http server
-- ` -pyfile=./py-service/grpc_server.py`， grpc server
+- `go run main.go -pyfile=./py-service/main.py`, trivial sample
+- `go run main.go -pyfile=./py-service/flask_server.py`， flask http server
+- `go run main.go -pyfile=./py-service/grpc_server.py`， grpc server
 
 
 # TODO
